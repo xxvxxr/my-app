@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"target": "ES2021",
+		"lib": ["dom", "dom.iterable", "ESNext"],
+		"outDir": "./dist",
+		"allowJs": true,
+		"composite": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"noFallthroughCasesInSwitch": true,
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"jsx": "react-jsx"
+	},
+	"ts-node": {
+		"esm": true
+	},
+	"include": ["**/*.ts", "**/*.tsx", "src"],
+	"exclude": ["node_modules"]
+}
